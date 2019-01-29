@@ -14,19 +14,19 @@ public class Lab11_01B {
 
 		ArrayList<Lab11_01> movieList = new ArrayList<>();
 
-		movieList.add(new Lab11_01("Goldeneye", "Drama"));
-		movieList.add(new Lab11_01("Startrek III", "Scifi"));
+		movieList.add(new Lab11_01("Malpertuis", "Drama"));
+		movieList.add(new Lab11_01("Hardware", "Scifi"));
 		movieList.add(new Lab11_01("Castaway", "Scifi"));
-		movieList.add(new Lab11_01("Love Actually", "Drama"));
-		movieList.add(new Lab11_01("Cotton Candy", "Drama"));
+		movieList.add(new Lab11_01("L'argent", "Drama"));
+		movieList.add(new Lab11_01("Paltoquet", "Drama"));
 		movieList.add(new Lab11_01("Das Boot", "Drama"));
-		movieList.add(new Lab11_01("Cinderella", "Horror"));
+		movieList.add(new Lab11_01("Possession", "Horror"));
 		movieList.add(new Lab11_01("The Ring", "Horror"));
-		movieList.add(new Lab11_01("Peter Pan", "Animated"));
-		movieList.add(new Lab11_01("Candyland", "Animated"));
+		movieList.add(new Lab11_01("The Lion King", "Animated"));
+		movieList.add(new Lab11_01("Swan Lake ", "Animated"));
 		movieList.add(new Lab11_01("Videodrome", "Scifi"));
 		movieList.add(new Lab11_01("War Games", "Scifi"));
-		movieList.add(new Lab11_01("Pirate Dad", "Animated"));
+		movieList.add(new Lab11_01("Fantasia", "Animated"));
 
 		for (Lab11_01 Lab11_01 : movieList)
 			System.out.println(Lab11_01);
